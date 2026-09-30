@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anglers Privacy Policy</title>
+<style>
+  :root{
+    --bg:#F6F7F4;
+    --surface:#FFFFFF;
+    --ink:#182521;
+    --ink-soft:#4B5D57;
+    --line:#DCE3DE;
+    --accent:#2B6777;
+    --accent-soft:#E7EFF0;
+    --code-bg:#EEF2EE;
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0F1615;
+      --surface:#161F1D;
+      --ink:#E7ECE9;
+      --ink-soft:#A9B8B2;
+      --line:#28352F;
+      --accent:#7FC1CE;
+      --accent-soft:#1B2B2C;
+      --code-bg:#1B2422;
+      color-scheme:dark;
+    }
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height:1.65;
+    padding-inline:16px;
+    padding-block:48px;
+  }
+  h1,h2{
+    font-family:"Source Serif 4", Georgia, "Times New Roman", serif;
+    color:var(--ink);
+    text-wrap:balance;
+    font-weight:600;
+  }
+  .wrap{
+    max-width:680px;
+    margin-inline:auto;
+  }
+  header.page{
+    margin-bottom:40px;
+  }
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:12.5px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px;height:7px;
+    border-radius:50%;
+    background:var(--accent);
+    display:inline-block;
+  }
+  h1{
+    font-size:clamp(28px,6vw,38px);
+    margin:0 0 10px;
+    letter-spacing:-0.01em;
+  }
+  .dates{
+    color:var(--ink-soft);
+    font-size:14.5px;
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+  }
+  .dates strong{color:var(--ink);}
+
+  nav.toc{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:18px 20px;
+    margin:28px 0 40px;
+  }
+  nav.toc p{
+    margin:0 0 10px;
+    font-size:12.5px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    font-weight:600;
+  }
+  nav.toc ol{
+    margin:0;
+    padding:0 0 0 1.1em;
+    columns:2;
+    column-gap:24px;
+    font-size:14.5px;
+  }
+  nav.toc li{margin-bottom:6px;}
+  nav.toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);}
+  nav.toc a:hover{color:var(--accent);border-color:var(--accent);}
+
+  section{
+    margin-bottom:34px;
+    padding-top:6px;
+  }
+  h2{
+    font-size:19px;
+    margin:0 0 14px;
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+  }
+  h2 .num{
+    color:var(--accent);
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:0.04em;
+  }
+  p{margin:0 0 14px;max-width:65ch;color:var(--ink);}
+  p.soft{color:var(--ink-soft);}
+  ul{margin:0 0 14px;padding-left:1.3em;max-width:65ch;}
+  li{margin-bottom:8px;}
+  strong{color:var(--ink);}
+  a{color:var(--accent);}
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin:6px 0 16px;
+    font-size:14.5px;
+  }
+  table caption{
+    text-align:left;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    margin-bottom:8px;
+  }
+  th,td{
+    text-align:left;
+    padding:10px 12px;
+    border-bottom:1px solid var(--line);
+    vertical-align:top;
+  }
+  th{
+    color:var(--ink-soft);
+    font-weight:600;
+    font-size:12.5px;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+  }
+  .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface);}
+  .table-wrap table{margin:0;}
+  .table-wrap th:first-child, .table-wrap td:first-child{padding-left:16px;}
+
+  .contact-card{
+    background:var(--accent-soft);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:20px 22px;
+  }
+  .contact-card p{margin:0 0 6px;}
+  .contact-card .email{
+    font-family:ui-monospace, "SF Mono", "Cascadia Code", monospace;
+    background:var(--code-bg);
+    padding:3px 8px;
+    border-radius:6px;
+    font-size:14px;
+    display:inline-block;
+    user-select:all;
+  }
+
+  footer.page{
+    margin-top:48px;
+    padding-top:20px;
+    border-top:1px solid var(--line);
+    color:var(--ink-soft);
+    font-size:13px;
+  }
+
+  @media (max-width:480px){
+    nav.toc ol{columns:1;}
+  }
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <div class="eyebrow">Anglers</div>
+    <h1>Privacy Policy</h1>
+    <div class="dates">
+      <span>Effective date: <strong>September 30, 2026</strong></span>
+      <span>Last updated: <strong>September 30, 2026</strong></span>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Table of contents">
+    <p>On this page</p>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#collect">Information we collect</a></li>
+      <li><a href="#use">How we use information</a></li>
+      <li><a href="#share">How information is shared</a></li>
+      <li><a href="#choices">Your choices</a></li>
+      <li><a href="#children">Children's privacy</a></li>
+      <li><a href="#retention">Data retention &amp; security</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="overview">
+    <h2><span class="num">01</span>Overview</h2>
+    <p>Anglers ("the app", "we", "us") is a mobile puzzle game developed and published by an independent developer operating under the name <strong>Bwana</strong>. This policy explains what information the app collects, how it's used, and who it's shared with when you play Anglers.</p>
+    <p class="soft">Anglers does not require you to create an account, sign in, or provide your name, address, or any contact details to play. There is no cloud save and no cross-device sync — your progress lives only on your device.</p>
+  </section>
+
+  <section id="collect">
+    <h2><span class="num">02</span>Information we collect</h2>
+    <p>Anglers itself does not directly ask you for personal information. Some information is collected automatically by the third-party services built into the app, as described below.</p>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Data collected by service</caption>
+        <thead>
+          <tr><th>Service</th><th>What it collects</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Analytics<br><span class="soft">(e.g. Firebase Analytics / GameAnalytics)</span></td>
+            <td>Gameplay events (levels played, completion, retries), session length, device model, OS version, language, approximate location (country/region derived from IP), and crash/diagnostic logs.</td>
+            <td>Understand how the game is played, find and fix bugs, and balance level difficulty.</td>
+          </tr>
+          <tr>
+            <td>Advertising<br><span class="soft">(Google AdMob)</span></td>
+            <td>Advertising ID, device information, IP-derived approximate location, and ad interaction data (impressions, clicks).</td>
+            <td>Show ads that support the free game, and measure ad performance. Ads are personalized unless you turn on the in-game "Non-personalized ads" setting (see <a href="#choices">Your choices</a>).</td>
+          </tr>
+          <tr>
+            <td>In-app purchases<br><span class="soft">(Google Play Billing)</span></td>
+            <td>Purchase confirmation and transaction ID. Payment details (card numbers, billing address) are handled entirely by Google Play and are never seen by us.</td>
+            <td>Process and deliver purchased in-game items.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="soft">We don't collect names, email addresses, phone numbers, precise GPS location, contacts, photos, or any account credentials — because the app never asks for them.</p>
+  </section>
+
+  <section id="use">
+    <h2><span class="num">03</span>How we use information</h2>
+    <ul>
+      <li>To operate and improve Anglers — diagnosing crashes, fixing bugs, and adjusting level difficulty based on aggregate play data.</li>
+      <li>To display and measure advertising that keeps the app free to play.</li>
+      <li>To process optional in-app purchases through Google Play Billing.</li>
+    </ul>
+    <p>We do not sell your information, and we do not use it to build a personal profile of you outside of what the analytics and advertising services above do on our behalf.</p>
+  </section>
+
+  <section id="share">
+    <h2><span class="num">04</span>How information is shared</h2>
+    <p>We don't operate our own servers that store player data. Information described above is shared only with the third-party providers that collect it directly on our behalf, currently:</p>
+    <ul>
+      <li><strong>Google (AdMob, Firebase, Google Play Billing)</strong> — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+    </ul>
+    <p class="soft">If Anglers adds another analytics or advertising provider in the future, this policy will be updated to name it before the change takes effect.</p>
+  </section>
+
+  <section id="choices">
+    <h2><span class="num">05</span>Your choices</h2>
+    <ul>
+      <li><strong>In-game setting:</strong> open <em>Settings → Ads</em> inside Anglers and turn on "Non-personalized ads." This tells our ad provider not to use your advertising ID or activity for interest-based targeting; you'll still see ads, just not personalized ones. The app remembers this choice on your device.</li>
+      <li><strong>Device-level control:</strong> on Android, go to <em>Settings → Privacy → Ads</em> (or <em>Google → Ads</em>, depending on your device) and turn on "Opt out of Ads Personalization" or reset your advertising ID.</li>
+      <li><strong>Uninstalling the app</strong> removes all locally stored game data from your device, since nothing is stored in the cloud.</li>
+    </ul>
+  </section>
+
+  <section id="children">
+    <h2><span class="num">06</span>Children's privacy</h2>
+    <p>Anglers is not directed at children under 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information through a third-party service used by the app, contact us using the details below so we can address it.</p>
+  </section>
+
+  <section id="retention">
+    <h2><span class="num">07</span>Data retention &amp; security</h2>
+    <p>Gameplay progress is stored only locally on your device and is deleted when you uninstall the app. Analytics and advertising data collected by our third-party providers is retained according to their own policies, linked above. We rely on those providers' security practices for any data they process on our behalf.</p>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">08</span>Changes to this policy</h2>
+    <p>If this policy changes, we'll update the "Last updated" date at the top of this page. Continued use of Anglers after a change means you accept the updated policy.</p>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">09</span>Contact</h2>
+    <div class="contact-card">
+      <p>Questions about this policy or how Anglers handles data can be sent to:</p>
+      <span class="email">bojovic.z.ilija@gmail.com</span>
+    </div>
+  </section>
+
+  <footer class="page">
+    <p>Anglers is an independent, privately developed game. This policy applies solely to the Anglers app.</p>
+  </footer>
+</div>
+</body>
+</html>
